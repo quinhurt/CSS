@@ -1,0 +1,131 @@
+/********************* grid layout 1 *********************/
+.gride1{
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 2%;
+  grid-row-gap: 2em;
+  background-color: blue;
+  padding: 2%;
+}
+
+.item{
+  height:auto;
+  width: 90%;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 1em 0;
+}
+
+
+/********************* grid layout 2 *********************/
+.gride2{
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 2%;
+  grid-row-gap: 2em;
+  background-color: blue;
+  padding: 2%;
+
+}
+
+.box{
+  height:auto;
+  width: auto;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 1em 0;
+
+}
+.box1{
+  grid-row: 1/4;
+}
+
+.box5{
+  grid-column: 2/4;
+  grid-row: 2/5;
+}
+.box6{
+grid-row: 5/7;
+}
+
+/********************* grid layout 3 *********************/
+.gride3{
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 18% 18% 18% 18% 18%;
+  grid-gap: 2%;
+  grid-row-gap: 1em;
+  background-color: blue;
+  padding: 2%;
+
+
+
+}
+.grid{
+  height:auto;
+  width: auto;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.grid9{
+  background-color:red;
+}
+
+.grid18{
+  color:purple;
+}
+/********************* grid layout 4 *********************/
+.gride4{
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 2%;
+  grid-row-gap: 2em;
+  background-color: blue;
+  padding: 2%;
+
+
+
+}
+.temp{
+  height:auto;
+  width: auto;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 1em 0;
+
+}
+
+.temp1{
+  grid-column: 1/4;
+}
+.temp9{
+  grid-column: 1/4;
+}
+/********************* grid layout 5 *********************/
+.gride5{
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 2%;
+  grid-row-gap: 2em;
+  background-color: blue;
+  padding: 2%;
+}
+.layout{
+  height:auto;
+  width: auto;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 1em 0;
+
+}
